@@ -1,0 +1,71 @@
+.logo-lg, .logo-mini{
+    height: 48px;
+}
+
+
+.skin-blue .main-header .navbar {
+    background-color: #273542; /*Azul Escuro Oficial*/ /*Navbar*/
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #202d37; /*Azul Mais Escuro Oficial*/ /*Hover do hamburger tela menor 700px*/
+}
+
+@media (max-width:767px) {
+        
+    .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+        background:#273542; /*Azul Escuro Oficial*/ 
+    }
+}
+
+.skin-blue .main-header .logo {
+    background-color: #202d37; /*Azul Mais Escuro Oficial*/ /*Logo*/
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #202d37; /*Azul Mais Escuro Oficial*/ /*Hover Logo*/
+}
+
+.skin-blue .main-header li.user-header {
+    background-color:#273542; /*Azul Escuro Oficial*/
+}
+
+.skin-blue .wrapper,.skin-blue .main-sidebar,.skin-blue .left-side {
+    background-color:#273542; /*Azul Escuro Oficial*/ /*Navbar side*/
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color:#4b646f; /*Cor do texto Filtro*/
+    background:#202d37; /*Azul Mais Escuro Oficial*/ /*Cor do fundo Filtro*/
+}
+
+.skin-blue .sidebar-menu>li:hover>a,.skin-blue .sidebar-menu>li.active>a,.skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff; /*Texto navbar side*/
+    background: #202d37; /*Azul Mais Escuro Oficial*/ /*Hover navbar side*/
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color:#273542; /*Azul Escuro Oficial*/ /*Navbar side*/
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin:0 1px;
+    background:#2b3c4c; /*Azul Oficial*/ /*Fundo side bar collapse*/
+}
+
+.skin-blue .sidebar a {
+    color:#b8c7ce; /*Azul Claro Oficial*/ /*Texto side bar*/
+}
+
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+    color:#b8c7ce; /*Azul Claro Oficial*/ /*Texto side bar collapse*/
+}
+
+.skin-blue .sidebar-form {
+    border-radius:10px; /*curvatura do pesquisar*/
+}
+
+.skin-blue .sidebar-form input[type="text"],.skin-blue .sidebar-form .btn {
+    background-color:#566a74; /*fundo do pesquisar*/
+    height:30px; /*altura do pesquisar*/
+}

@@ -1,0 +1,359 @@
+/* ---------------------- */
+/*          BASICS        */
+/* ---------------------- */
+
+body {
+	color: #2C3D4E;
+	font-family: "Tahoma", "Verdana", "Sans Serif", "Helvetica", "Arial";
+}
+a  {
+	color: #EDEDED;
+	text-decoration: none;
+}
+
+.row {
+	margin: 0;
+	padding: 0 20px; 
+}
+
+
+
+/* ---------------------- */
+/*        CLASSES         */
+/* ---------------------- */
+
+/* classes */
+.marcador {
+    background: #2C3D4E; /*Azul oficial*/
+    color: white;
+    padding-right: 30px;
+    box-shadow:0 0 10px #000;
+}
+
+.marcador2 {
+    background: #E0E2E6;
+    color: #2C3D4E;
+    box-shadow:0 0 2px #000;
+    height: 50px;
+}
+
+.marcador3 {
+    background: #E0E2E6;
+    color: #2C3D4E;
+    padding: 5px 10px;
+    box-shadow:0 0 2px #000;
+    height: auto;
+}
+
+.titulo-menu li a {
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #848788;
+}
+
+.margin {
+	padding: 20px;
+	
+}
+
+.table {
+    border: 1px solid lightgray;
+}
+
+.marginModule {
+    margin: 0px 0px 0px 0px;
+}
+
+.marginModule2 {
+    margin: -90px 0px 0px 0px;
+}
+
+.marginModule3 {
+    margin: -150px 0px 0px 0px;
+}
+.paddingModules {
+    padding: 5px;
+}
+
+.button {
+    float: right;
+}
+.input {
+    overflow: hidden;
+    padding: 0 3px 0 0;
+}
+.input input {
+    width: 100%
+}
+
+.dataAlert {
+	color: red;
+}
+
+/* -------------------------------- */
+/*            MAIN-NAVBAR           */
+/* -------------------------------- */
+
+.marginLogo, .marginNavbar { margin: 0; }
+
+.marginNavbar { padding: 15px 0; }
+
+.marginTitle {
+    background: #E0E2E6;
+    color: #2C3D4E;
+    box-shadow: 0 0 2px #000;
+    height: 50px;
+    padding: 7px 30px;
+}
+
+.marginRow {
+    background: #E0E2E6;
+    color: #2C3D4E;
+    box-shadow: 0 0 2px #000;
+    height: 50px;
+}
+
+.marginSearch { 
+	margin: 0.1% 0 0.1% 1.6%;
+	padding: 8px 0 0 0; 
+}
+
+.marginSubtitle {
+	margin: 0.1% 0 0.1% 1.6%;
+	padding: 5px 15px;
+	border-left: 1px solid #333;
+}
+
+/* -------------------------------- */
+/*             CAPTION              */
+/* -------------------------------- */
+
+.asset-caption {
+	height: 145px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    border: 2px solid #eaeaea;
+    margin-top: 3px;
+}
+
+.asset-caption table {
+	margin: 5px auto;
+	border-collapse: separate;
+    border-spacing: 50px 0;
+    font-size: 13px;
+}
+
+.asset-caption table td { padding: 8px 0; }
+
+.asset-caption table th { text-align: center; }
+
+.asset-caption ul li {
+	display: flex;
+    padding: 2px 0;
+}
+
+.asset-caption .asset-types, 
+.asset-caption .asset-criticity {
+	list-style-type: none;
+}
+
+.asset-caption .asset-types { margin-top: -10px; }
+
+.asset-caption img {
+	width: 120px;
+    height: 70px;
+    margin-top: -15px;
+}
+
+.asset-caption .line {
+    width: 25px;
+    color: #000;
+    background-color: #000;
+    height: 5px;
+    border-radius: 2px;
+    margin: 7px 7px 0 0;
+}
+
+.asset-caption .dotted,
+.asset-caption .dashed {
+    margin: -7px 5px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.asset-caption .dotted { margin: -10px 4px 0 0; }
+
+.asset-caption .square-color {
+	border: solid 8px;
+    width: 9px;
+    margin-right: 7px;
+}
+
+.asset-caption .square-color.danger {
+	border: solid 8px #e74c3c;
+}
+
+.asset-caption .square-color.warning {
+	border: solid 8px #FFEB3B;
+}
+
+.asset-caption .square-color.success {
+	border: solid 8px #27ae60;
+}
+
+.asset-caption .square-color.non-criticity {
+	border: solid 8px #fff;
+}
+
+
+/* -------------------------------- */
+/*               TABLES             */
+/* -------------------------------- */
+
+.scrollTable {
+	margin-top: 25px;
+	height: 320px;
+    overflow: auto;	
+}
+
+
+/* ----- SELECTED ASSET TABLE ----- */
+
+.selectedEnergyAssets td { border: 1px solid #ddd; }
+
+.selectedEnergyAssets ul {
+	list-style-type: none;
+	margin-left: -25px;
+}
+
+.selectedEnergyAssets li { margin-bottom: 10px; }
+
+
+.selectedEnergyAssets .card-header { margin-bottom: 20px; }
+
+.selectedEnergyAssets a {
+	color: #337ab7;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.selectedEnergyAssets .removeCSDButton {
+	float: right;
+	margin-right: 20px;
+	color: #23649c;
+	cursor:pointer;	
+}
+
+.selectedEnergyAssets ul .removeAssetButton {
+	float: right;
+	margin-right: 20px;
+	color: #333;
+	cursor:pointer;	
+}
+
+
+
+/* -------------------------------- */
+/*          MAP NAVBAR              */
+/* -------------------------------- */
+
+.map-navbar {
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 20px;
+}
+
+.map-navbar .navbar-collapse { padding: 0; }
+
+.map-navbar .disabled,
+.map-navbar .disabled:hover {
+	background-color: #777;
+    border-color: #d8d8d8;
+}
+
+.map-navbar li a { padding: 10px; }
+
+    
+
+
+/* -------------------------------- */
+/*                MAP               */
+/* -------------------------------- */
+
+.map-box {
+	height: 550px;
+}
+
+.map-box2 {
+	margin-top: 15px;
+	height: 492px;
+}
+
+.map-box-actived { height: 550px; }
+
+
+/* -------------------------------- */
+
+.red {
+	color:red;
+}
+
+.blue {
+	color:blue;
+}
+
+.green {
+	color:green;
+}
+.yellow {
+	color:yellow;
+}
+.orange {
+	color: orange;
+}
+
+
+
+/* ------ids------ */
+#img-logo {
+    padding: 12px 10px 12px 8px;
+}
+
+#gmap_canvas img {
+	max-width:none!important;
+	background:none!important;
+	height:550px;
+	width:1000px
+}
+
+#barra-navegacao {
+	margin: 10px;
+	font-family: "Tahoma", "Verdana", "Sans Serif", "Helvetica", "Arial";
+}
+
+#modulos {
+    margin: -22px 0 0 0;
+}
+
+#usuarios {
+    margin: -22px 0 0 0;
+}
+
+
+
+#marginContainer {
+    padding: 30px 40px 60px 30px;
+}
+
+#marginButton {
+    margin-left: -1px;
+    margin-top: 1px;
+}
+
+#marginSearch {
+    padding: 8px 10px 8px 22px;
+}
+
+#marginTitle {
+    padding: 7px 30px;
+}
